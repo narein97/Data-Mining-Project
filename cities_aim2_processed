@@ -1,0 +1,24 @@
+
+
+
+['Guwahati', 'Delhi', 'Kolkata','Ahmedabad','Brajrajnagar'(handle missing values),'Bengaluru','Patna','Jorapokhar'(handle missing values),'Amaravati','Visakhapatnam','Coimbatore'(handle missing values),'Mumbai','Talcher'(handle missing values),'Thiruvananthapuram','Chennai','Hyderabad','Jaipur','Lucknow','Amritsar',
+'Gurugram','Ujjain','Pithampur']
+
+
+
+Handling Missing Values:
+Applied Pandas interpolation to all files containing missing values
+'output/Talcher_prior_lockdown.csv'
+246 + -25.4x + 2.19x^2 + 0.619x^3 + -0.0723x^4 + 1.91E-03x^5
+246 + -25.4*x + 2.19*x**2 + 0.619*x**3 + -0.0723*x**4 + 1.91E-03*x**5
+
+'./output/Coimbatore_in_lockdown.csv'
+Appended Coimbatore prior lockdown data with during lockdown data and applied interpolation of pandas
+
+'./output/Jorapokhar_in_lockdown.csv'
+
+Appended Jorapokhar prior lockdown data with during lockdown data and applied interpolation of pandas
+
+'./output/Brajrajnagar_after_lockdown.csv'
+Appended Brajrajnagar in lockdown data with after lockdown data and applied interpolation of pandas
+
