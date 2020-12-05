@@ -1,0 +1,1 @@
+There is no correlation between the AQI and Covid cases as most of the correlation values are near 0.There are some cities which shows some correlation which are Brajrajnagar(-0.53),Hyderabad(-0.52),Patna(-0.63). 
