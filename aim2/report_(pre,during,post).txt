@@ -32,79 +32,78 @@ brajrajnagar:
 1. there is an overlap between prior lockdown and during lockdown AQI values. AQI values are below 200
 
 chennai:
-1. all the timeperiods are overlapping and AQI values are below 200
-2. AQI values for during lockdown period is below 100
+1. all the time periods are overlapping and AQI values are below 200.
+2. AQI values for during lockdown period is below 100.
 
 coimbatore:
-1. all the time periods are overlapping and AQI values are below 100
+1. all the time periods are overlapping and AQI values are below 100.
 
 delhi:
-1. in prior lockdown there are lots of ups and downs with max AQI values upto 475
-2. there is an overall decreasing trend in AQI values from starting of prior lockdown period to the start of during lockdown period
-3. during lockdown and after lockdown period the values of AQI is below 200
+1. in prior lockdown there are lots of ups and downs with max AQI values upto 475.
+2. there is an overall decreasing trend in AQI values from starting of prior lockdown period to the start of during lockdown period.
+3. during lockdown and after lockdown period the values of AQI is below 200.
 
-gurugram: same as delhi
-1. upto 425
+gurugram:
+1. in prior lockdown there are lots of ups and downs with max AQI values upto 425.
+2. there is an overall decreasing trend in AQI values from starting of prior lockdown period to the start of during lockdown period.
+3. during lockdown and after lockdown period the values of AQI is below 200.
 
 guwahati:
-1. prior lockdown curve has a rise in AQI values and there is a continous fall till the end of the after lockdown time period
-2. during lockdown AQI value, majority lies below 100 during major time of the lockdown
-3. AQI value stays near 50 in after lockdown period
+1. prior lockdown curve has a rise in AQI values and there is a continous fall till the end of the after lockdown time period.
+2. during lockdown AQI value, majority lies below 100 during major time of the lockdown.
+3. AQI value stays near 50 in after lockdown period.
 
 hyderabad:
-1. in prior lockdown AQI values lies in the range 100 and 150
-2. during lockdown AQI values stays below 100
-3. in after lockdown time period AQI value stays in the range 50 and 75
+1. in prior lockdown AQI values lies in the range 100 and 150.
+2. during lockdown AQI values stays below 100.
+3. in after lockdown time period AQI value stays in the range 50 and 75.
 
 jaipur:
-1. there is an overall decreasing trend from start of prior lockdown period to the end of prior lockdown period
-2. there is an overlap in prior lockdown and during lockdown curve
-3. values of during lockdown and after lockdown lies below 150
+1. there is an overall decreasing trend from start of prior lockdown period to the end of prior lockdown period.
+2. there is an overlap in prior lockdown and during lockdown curve.
+3. values of during lockdown and after lockdown lies below 150.
 
 jorapokhar:
-1. AQI values in during lockdown and after lockdown stays below 200
+1. AQI values in during lockdown and after lockdown stays below 200.
 
 kolkata:
-1. ups and down in the curve i.e. there is a lot of varying AQI values in prior lockdown period within range of 100 and 250
-2. during lockdown and after lockdown AQI values stays below 100
+1. Lot of ups and down in the curve i.e. there is a lot of varying AQI values in prior lockdown period within range of 100 and 250.
+2. during lockdown and after lockdown AQI values stays below 100.
 
 lucknow:
-1. there is lot of varying AQI values in prior lockdown period
-2. there is an overall decreasing trend in AQI values from start of prior lockdown period to the start of the during lockdown period
-3. during lockdown AQI values stays below 200
-4. in after lockdown there is an increasing trend in after lockdown
+1. there is lot of varying AQI values in prior lockdown period.
+2. there is an overall decreasing trend in AQI values from start of prior lockdown period to the start of the during lockdown period.
+3. during lockdown AQI values stays below 200.
+4. in after lockdown there is an increasing trend in after lockdown.
 
 mumbai:
-1. prior lockdown AQI values lies between 100 and 250
-2. during lockdown and after lockdown AQI values are below 100
+1. prior lockdown AQI values lies between 100 and 250.
+2. during lockdown and after lockdown AQI values are below 100.
 
 patna:
-1. maximum values for prior lockdown period is 425. in this period AQI values ranges between 150 to 425
-2. there is a decreasing trend in AQI values in curve of prior lockdown period
-3. AQI values for during and after lockdown lies below 200
+1. maximum values for prior lockdown period is 425. in this period AQI values ranges between 150 to 425.
+2. there is a decreasing trend in AQI values in curve of prior lockdown period.
+3. AQI values for during and after lockdown lies below 200.
 
 pithampur:
-1. maximum value for prior lockdown period is 225. this AQI values range between 75 to 225
-2. in during lockdown anf after lockdown AQI values lies below 200
+1. maximum value for prior lockdown period is 225. this AQI values range between 75 to 225.
+2. in during lockdown and after lockdown AQI values lies below 200.
 
 talcher:
-1. maximum valu for prior lockdown is 325. there is lot of varying values for AQI in prior lockdown phase. it ranges between 100 to 325
-2. during and after lockdown AQI values lies below 150
+1. maximum valu for prior lockdown is 325. there is lot of varying values for AQI in prior lockdown phase. it ranges between 100 to 325.
+2. during and after lockdown AQI values lies below 150.
 
 thiruvananthapuram:
-1. AQI values lie between 25 to 100
-2. there is not much variance in the AQI values and they are nearly similar
+1. AQI values lie between 25 to 100.
+2. there is not much variance in the AQI values and they are nearly similar.
 
 ujjain:
-1. max value of prior lockdown period is 200. it values ranges between 100 and 200
-2. during lockdown and after lockdown values lie below 150
-3. after lockdown AQI values shows an increasing trend after 12th week
+1. max value of prior lockdown period is 200. it values ranges between 100 and 200.
+2. during lockdown and after lockdown values lie below 150.
+3. after lockdown AQI values shows an increasing trend after 12th week.
 
 visakhapatnam:
-1. AQI values lies between 75 and 250. there is a lot of variance in AQI values
-2. during and after lockdown AQI values lies between 75 and 100 generally
+1. AQI values lies between 75 and 250. there is a lot of variance in AQI values.
+2. during and after lockdown AQI values lies between 75 and 100 generally.
 
-general view:
-1. AQI values during and after lockdown lies below 200 for all the cities
-2. some of the cities show increase in AQI in after lockdown period
-3. most of the southern cities similar AQI values while northern cities show larger variance
+

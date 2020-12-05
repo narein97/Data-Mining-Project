@@ -1,0 +1,4 @@
+general view:
+1. AQI values during and after lockdown lies below 200 for all the cities.
+2. some of the cities show increase in AQI in after lockdown period.
+3. most of the southern cities similar AQI values while northern cities show larger variance.
