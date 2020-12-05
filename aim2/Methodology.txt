@@ -1,0 +1,5 @@
+For aim 2, we will find the AQI and level of different pollutants in each city and sort them in weekly, monthly and lockdown phases to get an analysis on each time period and plot the charts of AQI and distribution of pollutants to find the top cities leading the list and find out the change in patterns of AQI and pollutants. Here, we shall examine the AQI level before,during and after the lockdown.
+
+We will use following ways to handle missing values in the data:
+1. We will use interpolate(italic) of pandas library to fill out the most of the missing values.
+2. We will use regression line to fit the plot and use it to predict the missing values.
