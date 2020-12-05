@@ -1,0 +1,27 @@
+Aim 3
+
+While performing the analysis over time series data, we focus on a number of factors which are,
+
+1. Seasonal graph - This graph allows us to analyze the seasonality over the time interval considered. In our case, the seasonality considered is over a period of one year. The x and y axes of the graph denote the AQI and time period (one year) over which the seasonality can be seen. The AQI data over multiple years are overlapped against the same axis of the graph and are further analyzed.
+
+2. Year-wise and Month-wise box plots - This plot is a box and whiskers plot that provide a quick summary of the data over a particular time period, such  as the median, first quartile, third quartile, maximum value and minimum value. Depending on the time period considered, the plot can be either a year-wise or a month-wise box plot. The year-wise box plot provides an idea of the trend the time series data follows. The month-wise box plot provides an idea of the seasonality the time series data follows.
+
+3. Time series decomposition - The time series data can be decomposed into three additional plots over the same time interval, which are
+
+   - Trend: The trend in the data denotes the direction the data moves in over a period of time. Eg: If the time series data kept increasing linearly over a particular time period we could say that the data follows a linear and increasing trend. Similary the trend could either be linear, non-linear, increasing or decreasing. Figure x shows an example of the trend of a sample time series data.
+   
+   - Seasonality: The seasonality in the data denotes the repating short term cycles in the series. The time period that the seasonality follows depends on the data being considered, which could range from days, months, years or even minutes or seconds. The short term cycles could are similar to one another if not the same. Figure x shows an example of the seasonality of a sample time series data.
+   
+   - Residuals: Prediction over time series data depends on either an additive or multiplicative model, which models the trend and seasonality of the data. The data also includes additional components that cannot be made sense of, i.e. it either does not help the modeling of trend and seasonality or does not hold sufficient information to be modeled. This additional component is known as the residual in the time series data. Figure x shows an example of the residual of a sample time series data.  
+
+A prediction over time series data usually splits the data into trend, seasonality and residual; models the trend and seasonality and predicts over the residual.
+
+4. ADF Statistic - The Augmented Dickey-Fuller test is a type of statistical test called a unit root test. The intuition behind a unit root test is that it determines how strongly a time series is defined by a trend. The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary. If the null hypothesis failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. If the null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. Figure x shows an example of the ADF statistic for a sample dataset. The p-value helps to either reject or accept the null hypothesis depending on whether the p-value is less than or greater or equal to a value of 0.05 respectively.
+
+Furthermore, multiple models were utilized for performing the predictions such as SARIMA, LSTM, Mean, Weighted mean and Random walk which will be explained later.
+
+---------------------------------------------------------------------------------------------
+
+Aim 4
+
+For this, we have used a Wilcoxon signed rank test to determine whether the change in AQI levels were statistically significant. The Wilcoxon signed rank test is a a non-parametric statistical hypothesis test used to compare two related samples to assess whether their population mean ranks differ (i.e. it is a paired difference test). The Wilcoxon signed rank test has been used as anlternative to the paired Student's t-test as the distribution of the difference between two samples' means cannot be assumed to be normally distributed. The test is also suitable for the available time series data as the data fulfills all the assumption the test requires, such as the predictions and observed values are paired, are literaly derived from the same population and the data is measured over an interval scale (month-wise). The test considers a null hypothesis which is, there is no statistically significant difference between the predicted values of AQI and the observed values of AQI across the duration of the nationwide lockdown. Alternative to this is the hypothesis that there is a significant difference (in our case improvement) between the predicted and observed AQI values across the duration of the lockdown.
