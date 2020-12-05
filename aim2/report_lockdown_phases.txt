@@ -1,0 +1,95 @@
+The following observation is done on 4 phases of lockdown,
+ * Phase 1: 25 Mar 2020 – 14 Apr 2020
+ * Phase 2: 15 Apr 2020 –  3 May 2020
+ * Phase 3:  4 May 2020 – 17 May 2020
+ * Phase 4: 18 May 2020 - 31 May 2020
+
+
+Ahmedabad
+1. during phase 1, aqi values are significantly high
+2. phase 2 starts with AQI value of 100 and slightly increases till mid of phase 4 and drops
+
+amaravati
+1. aqi values are below 100 for first 3 phases
+2. phase 4 starts with a little increase in aqi, but the overall trend is flat
+
+amritsar
+1. phase 1 follows a flat trend, while phase 2 ends with little higher AQI values
+2. unlike phase 1 and 2, phase 3 and 4 shows fluctuation
+3. overall aqi values lies below 130
+
+bengaluru
+1. trend is flat through the 4 phases, with aqi values lies below 100
+
+brajrajnagar
+1. phase 1 records the highest aqi value for brajrajnagar
+2. phase 2 shows a larger variations in AQI value, when compared with other phases
+3. large portion of phase 4 data is missing
+
+chennai
+1. all 4 phases show considerably uniform and slightly increasing trend in AQI value
+2. AQI value of phase 1 starts with 50 and phase 4 ends with 70
+
+coimbatore
+1. phase 1 and 2 has little higher aqi value
+2. aqi values begins to drop in phase 3, and remains flat in phase 4
+
+delhi
+1. aqi value in phase 3 and 4's fluctuation is higher than phase 1 and 2
+2. overall trend for aqi value is increasing
+3. aqi value reaches max at 250 in begining of phase 4
+
+grugram
+1. aqi value of both phase 3 and 4 fluctuates a little higher than phase 1 and 2
+2. overall trend for aqi value is increasing in phase 1, 2, and 3
+
+guwahati
+1. phase 1 has large variance and records high aqi value of 310
+2. aqi value drops to 50 at the begining of phase 2 and the rest of the trend remains flat
+
+hydrabad
+1. aqi value in phase 1, 2, and 3 has flat trend, remains below 100
+2. phase 4 starts with little higher aqi value and reaches 130
+
+jaipur
+1. phase 1 has smooth trend in aqi value, while other phases fluctuates
+2. overall trend in aqi value is increasing and below 150
+
+jorapokar
+1. aqi value of phase 1 and 3 fluctuates little higher than phase 2 and 4
+2. overall trend for aqi value is flat and lies above 100
+3. max aqi value is recored at phase 3 at 230
+
+kolkata
+1. phase 1 starts with high aqi value and reached high point of 150
+2. aqi value in other phases continues to remain below 100
+3. overall aqi values decreases and doesnot have much fluctuations
+
+lucknow
+1. all the 4 phases show high variance in aqi value
+2. phase 1 starts with high aqi value of 250, which is max of all 4 phases
+
+mumbai
+1. trend in aqi value is considerably flat for all the phases
+2. aqi value is below 100 for all the phases
+
+patna
+1. phase 3 shows large variance in aqi value and reaches the max value of 250
+2. aqi value in other phases are below 200
+
+talcher
+1. the overall trend in aqi value is decreasing
+2. aqi values are between 100 and 200
+3. phase 1's aqi value fluctuates little higher that other phases
+
+thiruvananthapuram
+1. overall trend in aqi value is flat and lies below 100
+
+visakhapatnam
+1. aqi values of phase 1, 2, and 3 continues to decrease
+2. phase 4 has raise in aqi value and reaches 150 at the begining, and decreases
+
+overall observation in aqi values
+1. amaravati, bengaluru, chennai, jorapokhar, mumbai, thiruvananthapuram shows flat trend
+2. ahmedabad, brajrajnagar, guwahati, kolkata, talcher, vishakapatnam shows decrease in trend
+3. delhi, grugram, jaipur shows increase in trend
