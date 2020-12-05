@@ -1,1 +1,27 @@
-Will add analysis for report
+Aim 1
+
+The steps involved for aim 1 include,
+
+ - Calculate the AQI of the city.
+ - Segregate the AQI of the cities in to groups based on some threshold.
+ - Based on each group set the probable disease that can occur in the respective city.
+
+The data set we have used has hourly and daily air quality data of different stations in India. The AQI calculation used seven measures PM2.5, PM10, SO2, NOx, NH3, CO and O3. For cities with insufficient pollutant data, the final AQI is calculated based on at least one of PM2.5 and PM10 and at least three of the seven available pollutants. For cities with insufficient data, hourly wise data had been scrapped from the Central Control Room for Air Quality Management web page as mentioned in the dataset section. Corresponding to the hourly AQI data, the prominent pollutant responsible for the AQI value was also retained. From reference, the hourly, station wise data had been calculated by considering the running average of the AQI value for each pollutant over the past 24 hours (past 8 hours for CO and O3) with the condition of having at least 16 values over the past 24 hours data. The values are then averaged over a day and across all stations within a city to produce the daily wise AQI value for a particular city. Furtheromre, for every daily wise AQI per city a corresponding prominent pollutant was noted down if the pollutant appeared the maximum number of times in the 24 hours of the day (i.e. the prominent pollutant is the mode across the hourly data for the city on a particular day). The daily, city wise data was then averaged over a period of one month to find the average AQI for the month with a condition of having atleast 15 days worth of data. The corresponding prominent pollutant was also founf using the aforementioned process over a time period of one month. The data was then segregated into groups on the basis of AQI over a threshold for which the general population in each group suffers from a set symptoms as shown in table 1. Based on these thresholds we then found a set of probable diseases in each city corresponding to the AQI value and the prominent pollutant.
+
+Observations:
+
+The plots for each city (Supplementary tables x) provide am overview of the AQI in 2019 and the corresponding prominent pollutant in each month. Specifically,
+ - Ahmedabad shows severe AQI levels across the year, with the prominent pollutant being CO.
+ - Amaravati, Amritsar, Bengaluru, Chennai, Coimbatore, Hyderabad, Jaipur, Mumbai, Pithampur, Thiruvananthapuram, Ujjain, Vishakapatnam show satisfactory to moderate AQI levels, with the prominent pollutant being PM2.5, PM10, CO or O3
+ - Brajrajnagar, Delhi, Gurugram, Guwahati, Jorapokhar, Kolkata, Lucknow, Patna, Talcher show moderate to poor AQI levels, with the prominent pollutant also being PM2.5, PM10, CO or O3.
+ - A clear distinction can be seen between the above mentioned group of cities, which is lower AQI levels are observed across the indian peninsula.
+
+Analysis:
+
+ - From table x we can associate the harmfull effects of various air pollutants. From table x, we can observe the different 
+health effects at varying AQI levels. These provide us a basis for understanding how far a particular city could be considered safe to live in. Broadly speaking, cities can be classified into either low or high AQI cities and further on the basis of the degree to which a  prominent pollutant could cause harmful effects.
+ - From our observations, we see that cities which belong to the southern peninsula have lower AQI in general. From reference, it is found that solid fuels such as biomass or coal are the major fuel source for cooking and heating in developing countries. Due to the climate across the southern peninsula (tropical) the need for heating is reduced and therefore combustion of fuel is minimum in comparison to the cities in the north.
+ - From reference, combustion can produce CO, NO2 , PM and other organic matter such as polycyclic aromatic hydrocarbons (PAHs). The PAHs which originate from combustion due to food cooking, can be in both gas and PM form. Considering the fact that majority of Indians (about 70% from reference) use solid fuel for cooking, adds on to the pollution levels across the counry.
+ - Considering Delhi and Ahmedabad, we can see that the AQI in Delhi is far better than the AQI in Ahmedabad, but yet we see major focus over the air pollution in Delhi across media coverage. A probable hypothesis being that the prominent pollutant involved is a lot more visible in Delhi as compared to Ahmedabad. The prominent pollutant in Delhi is PM. Due to the larger size of PM, it's more easier to perceive the "air pollution" especially in winters where pollutants are trapped at the lower levels of the atmosphere (a meterological phenomenon known as winter inversion).
+ - Pithampur, though has lower AQI levels we can observe that the prominent pollutant is PM10. This is inline with the fact that Pithampur is an industrial area.
+ - In general, a plausible hypothesis over choosing a safer city to live in on the basis of AQI would be to not constraint ourselves to the AQI values only but rather consider the prominent pollutant which dictates the AQI in the city. It would be suggestive from our analysis to also weigh out the the short and long term effects of the pollutants over a persons health.
