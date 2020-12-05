@@ -1,26 +1,77 @@
-Pre requisites
+Observations
 
-While performing the analysis over time series data, we focus on a number of factors which are,
+From the visualizations of Aim 3 mentioned in #,
 
-1. Seasonal graph - This graph allows us to analyze the seasonality over the time interval considered. In our case, the seasonality considered is over a period of one year. The x and y axes of the graph denote the AQI and time period (one year) over which the seasonality can be seen. The AQI data over multiple years are overlapped against the same axis of the graph and are further analyzed.
+Delhi: 
+ - There is slight improvement in AQI of delhi in the initial two Phases of Lockdown i.e. from Phase 1 (25th march to 14th April) and Phase 2 (15th april to 3rd May)
+ - After initial two Phases, The predicted AQI and actual AQI values are almost same because During Phase 3 (4th May to 17th May) some relaxations were given.
 
-2. Year-wise and Month-wise box plots - This plot is a box and whiskers plot that provide a quick summary of the data over a particular time period, such  as the median, first quartile, third quartile, maximum value and minimum value. Depending on the time period considered, the plot can be either a year-wise or a month-wise box plot. The year-wise box plot provides an idea of the trend the time series data follows. The month-wise box plot provides an idea of the seasonality the time series data follows.
+Lucknow:
+ - We can see that, there is slight decrease in AQI of lucknow in initial two Phases of Lockdown.
+ - If we compare the AQI of initial two phases with past data, we can observe that the AQI level is lowest in Four Years(From 2016 to 2019).
+ - According to CPCB ,out of 50 days(intial 3 phases of lockdown i.e from 25th march to 14h may), for 31 of these days the city AQI was satisfactory, while for remaining 19 days the AQI was moderate which means breathing discomfort to the people with lungs, asthma and heart diseases(acc to Table 1 of report).
+ - From 2016 to 2019, during the same period more than 50 percent of days recorded poor to very poor AQI(i.e AQI from 201 – 400). 
 
-3. Time series decomposition - The time series data can be decomposed into three additional plots over the same time interval, which are
+Hyderabad:
+ - We can see that predicted AQI of hyderabad follow the same trend as actual AQI  of 2020.
+ - The AQI of hyderabad is always between 60 to 180(i.e satisfactory to moderate) according to previous years data of 2016-2019. The AQI in 2020 during lockdown is same as previous years during the same time.
+ - The lockdown doesn’t seem to have made much of an impact on Hyderabd AQI level. Despite lesser vehicular movement ,the data shown that the city AQI remain moderate, only marginally lower than usual days.
 
-   - Trend: The trend in the data denotes the direction the data moves in over a period of time. Eg: If the time series data kept increasing linearly over a particular time period we could say that the data follows a linear and increasing trend. Similary the trend could either be linear, non-linear, increasing or decreasing. Figure x shows an example of the trend of a sample time series data.
-   
-   - Seasonality: The seasonality in the data denotes the repating short term cycles in the series. The time period that the seasonality follows depends on the data being considered, which could range from days, months, years or even minutes or seconds. The short term cycles could are similar to one another if not the same. Figure x shows an example of the seasonality of a sample time series data.
-   
-   - Residuals: Prediction over time series data depends on either an additive or multiplicative model, which models the trend and seasonality of the data. The data also includes additional components that cannot be made sense of, i.e. it either does not help the modeling of trend and seasonality or does not hold sufficient information to be modeled. This additional component is known as the residual in the time series data. Figure x shows an example of the residual of a sample time series data.  
+Bengaluru:
+ - We can see that AQI of bengaluru is same as predicted AQI of 2020.
+ - If we compare the 2020 actual AQI with previous year(2019) during the same period, we can observe that the AQI level is decresed from Moderate(101-200) to Satisfactory(51-100). 
 
-A prediction over time series data usually splits the data into trend, seasonality and residual; models the trend and seasonality and predicts over the residual.
+Chennai:
+ - We can see that the AQI level of chennai in lesser than predicted AQI in First , second and third phase of lockdown.
+ - Also from the above graph we can see that , The AQI started incresing after first phase of lockdown and continue increasing till third phase. After third phase the value of predicted and actual AQI of 2020  reached at same level.
+ - If we compare 2020 actual AQI with previous year(2019) then we observed that there is a decrease in AQI ,  in 2019 AQI values are around 100 during the same period(i.e lockdown period) while in 2020 the AQI values are in between 60-80 in first 3 phases of lockdown(from 25th march to 17th may)
 
-4. Lag and auto-correlation - The lag operator (also known as backshift operator) is a function that shifts (offsets) a time series such that the “lagged” values are aligned with the actual time series. The lags can be shifted any number of units, which simply controls the length of the backshift. Figure x shows an example of the lag operation. Lags are very useful in time series analysis because of a phenomenon called autocorrelation, which is a tendency for the values within a time series to be correlated with previous copies of itself. One benefit to autocorrelation is that we can identify patterns within the time series, which helps in determining seasonality, the tendency for patterns to repeat at periodic frequencies.
+Analysis
 
-5. ADF Statistic - The Augmented Dickey-Fuller test is a type of statistical test called a unit root test. The intuition behind a unit root test is that it determines how strongly a time series is defined by a trend. The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary. If the null hypothesis failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. If the null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. Figure x shows an example of the ADF statistic for a sample dataset. The p-value (y-axis) helps either reject or accept the null hypothesis depending on whether the p-value is less than or greater and equal to a value of 0.05 respectively. The p-value is calculated over different lags (x-axis). The most optimum p-value is considered and the corresponding ADF statistic which produced the corresponding optimum p-valaue is also mentioned.
+ - We can see that there are some cities in which the AQI values are slightly less than predicted AQI of 2020, while for some cities there is only a marginal difference between actual 2020 AQI and predicted 2020 AQI.
+ - There are various factors involving in decreased AQI in some cities :
+    - Like in Delhi after intial two phases some relaxation were given such as Normal Movement is permitted in green Zones with bus capacity of 50 percent and private and hired vehicles are allowed in orange Zones , only area under red zones are in complete Lockdown.
+    - Also, there is reduction in vehicular load and halting of commercial and industrial activities during Lockdown.
+ - While for other cities in which there is only marginal difference between actual 2020 AQI and predicted AQI despite of lesser vehicular movements .
+ - Even as report indicated dust, construction activities, transport sector and industry as major resources of PM2.5, but in these cities weather plays an important role in AQI on these cities. In these cities movement of essential services,volunteers and others may play a small role in rising the AQI level. But gloomy weather conditions may also be playing a spoilsport  here.
+ - Clouds over cities and higher levels of humidity may have resulted in local pollutants mixing with water vapour leading to current AQI levels.
 
+Why particular model work for each city :
+
+Our timeseries data consist of response varaiable and some regression variable.Here the response variable(or dependent variable) is AQI values.At each time stamp response variable “Y” takes some values y_i.
+
+Linear Regression:
+Firstly Linear Regression not worked for our time series data because our time series data is self-corelated i.e a given value of y is influenced by previous values of y. Linear Regression is unable to explain such auto corelations.
+
+SARIMA  Model:
+In these test , first we check if our data have some seasonality , we can check it simply by viusualizing the plot and then we check for wheather data is stationary or not. For this we use dickey Fuller test in which we take null hypothesis as this data is non-stationary and based on p-value we reject or accept the hypothesis.
+In our case , data is non-staionary so we try to make it stationary by using differencing technique .
+After that when we predict using this model  it doesn,t give satisfactory results .
+
+Some of the resaons for this are:
+ - Their is no overall trend in the data. There are unusual growth and slowdown in the series.
+ - The Seasonality for each year is different i.e doesn’t follow a particular pattern.
+ - Also it may be possible that model is not able to train well because we are working with only 3 years of data to train the model(2016-2018).
+
+LSTM Model :
+LSTM model is based on Neural Networks, LSTM network add the explicit handling of order between observations when learning a mapping function from input to outputs.
+Also, Instead of mapping just mapping inputs to outputs alone, the lstm network is capable of learning a mapping function for the inputs over time to an output. Beacuase of these advantages lstm model is able to predict time series task using fixed time stamp.
+In this model , first we split out data series using a fixed time stamp, this time stamp needs to be tuned for each dataset. After this preprocessing step we run our model on these splitted values.
+
+Mean and Weighted mean:
+These models were used for Lucknow, Delhi (Average) and Hyderabad (Weighted average). The principle involved in this method is to find the average (equivalently, weighted average) difference in AQI between every month, across years. Eg: If we had monthwise time series data for a period of three years, we would find the difference in AQI for every i+1^th and i^th month, where 1 <= i <= 11 (12 months in a year). Finally we average the difference per year with respect to the number of years i.e. sum of all differnces between i+1^th and i^th month for three years divided by three. The average difference is used to predict the AQI levels in the test set by adding the differences sequentially to the AQI level of the first month. The difference between the Average and Weighted average difference models is that in the Weighted average models each year is provided a weightage. The model only works well in scenarios where the time series data is stationary and there is negligible trend. In that case, the model captures the seasonality and the residual of the time series quite well and thus produces better predictions.
+
+Random walk: 
+This model assumes that in each period the variable representing the AQI takes a random step away from its previous value, and the steps are independently and identically distributed in size (“i.i.d.”). This is equivalent to saying that the first difference of the variable is a series to which the mean model should be applied. So, if we use a time series that wanders all over the plot and we seem to find  that its first difference looks like it is an i.i.d. sequence, then a random walk model is a potentially candidate. Unfortunately, this model does not work well as the data points are not i.i.d as we can see that the variations in AQI value in a year shows similar patterns across years.
+
+---------------------------------------------------------------------------------------------------------------
+
+Aim 4 
 
 Observations
 
+The Wilcoxon signed rank test was performed over the five cities. The p-values observed had values of 0.125, 0.875, 0.25, 0.844 and 0.062 for cities Lucknow, Hyderabad, Delhi, Bangalore and Chennai respectively.
+
 Analysis
+
+The p-values calculated via the Wilcoxon signed rank test denotes the likelihood of observing the true lockdown AQI values assuming a median equivalent to the median of the predicted values. As we can see from our observations, the p-values are quite far from a significance level of 5% (p-value 0.05), which means that there is not enough evidence to reject the null hypothesis which is that there is no statistically significant difference between the predicted values of AQI and the observed values of AQI across the duration of the nationwide lockdown. Although, from Aims 2 and 3 we can clearly see an improvement in the AQI due to the lockdown but to say that improvement was statistically significant was quite far-fetched for the four cities Lucknow, Hyderabad, Delhi and Bangalore. For Chennai although the significance of the change in AQI was not upto par, we could still say that the change was statistically significant to ~7% which in itself is satisfactory.
