@@ -74,7 +74,7 @@ lucknow:
 1. there is lot of varying AQI values in prior lockdown period.
 2. there is an overall decreasing trend in AQI values from start of prior lockdown period to the start of the during lockdown period.
 3. during lockdown AQI values stays below 200.
-4. in after lockdown there is an increasing trend in after lockdown.
+4. there is an increasing trend in after lockdown period.
 
 mumbai:
 1. prior lockdown AQI values lies between 100 and 250.
@@ -105,5 +105,5 @@ ujjain:
 visakhapatnam:
 1. AQI values lies between 75 and 250. there is a lot of variance in AQI values.
 2. during and after lockdown AQI values lies between 75 and 100 generally.
-
+3. after lockdown AQI values shows an increasing trend after 17th week.
 
